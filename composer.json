@@ -49,8 +49,15 @@
         "illuminate/support": "^7.0.0|^8.0.0",
         "illuminate/validation": "^7.0.0|^8.0.0",
         "spatie/laravel-schemaless-attributes": "^1.7.0",
-        "watson/validating": "^5.0.0"
+        "tallesairan/validating": "^5.0.0"
     },
+      "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tallesairan/validating.git"
+
+        }
+    ],
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.27.0",
         "phpunit/phpunit": "^9.0.0"
